@@ -30,7 +30,7 @@ abstract class Scene extends eui.Component {
 					case "任务一":
 						if (Number(Subway.energynumber.text) >= 100000) {
 							newtaskstr = newtaskstr + ":finished";
-							alert("任务一:能量收集100000达成");
+							// alert("任务一:能量收集100000达成");
 						} else {
 							newtaskstr = newtaskstr + ":unfinished"
 						}
@@ -42,7 +42,21 @@ abstract class Scene extends eui.Component {
 						} else {
 							newtaskstr = newtaskstr + ":unfinished"
 						}
-
+					case "任务三":
+						if (Number(Subway.energynumber.text) >= 100000) {
+							newtaskstr = newtaskstr + ":finished";
+							alert("任务一:能量收集100000达成");
+						} else {
+							newtaskstr = newtaskstr + ":unfinished"
+						}
+						break
+					case "任务四":
+						if (Subway.Numberofdriveaway >= 5) {
+							newtaskstr = newtaskstr + ":finished";
+							alert("任务二:发车次数超过5次");
+						} else {
+							newtaskstr = newtaskstr + ":unfinished"
+						}
 
 						break
 				}

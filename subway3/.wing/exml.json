@@ -1,0 +1,22 @@
+{
+    "1721b86c2cf": {
+        "path": "MainScene.ts",
+        "class": "MainScene",
+        "parentPath": ""
+    },
+    "1721c5d866d": {
+        "path": "StartScene.ts",
+        "class": "StartScene",
+        "parentPath": ""
+    },
+    "1722142048c": {
+        "path": "GameScene.ts",
+        "class": "GameScene",
+        "parentPath": ""
+    },
+    "17245e4872f": {
+        "path": "msg.ts",
+        "class": "msg",
+        "parentPath": ""
+    }
+}
